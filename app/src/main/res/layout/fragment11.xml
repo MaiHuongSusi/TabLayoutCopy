@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgStar"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/star"
+       />
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_toRightOf="@+id/imgStar"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Release date: 2017-9-26"
+        android:textColor="@android:color/black"
+        />
+    <TextView
+        android:id="@+id/tv2"
+        android:layout_toRightOf="@+id/imgStar"
+        android:layout_below="@+id/tv1"
+        android:layout_marginLeft="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rating: 6.4/10"
+        android:textColor="@android:color/black"
+        />
+    <ImageView
+        android:id="@+id/imgAdult"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/imgStar"
+        android:layout_marginLeft="310dp"
+        android:background="@drawable/adult"
+        />
+    <ImageView
+        android:id="@+id/iconCry"
+        android:layout_below="@+id/imgStar"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/iconcry"
+        android:layout_marginLeft="10dp"/>
+    <Button
+        android:id="@+id/btnReminder"
+        android:layout_below="@id/iconCry"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@id/iconCry"
+        android:layout_alignRight="@id/iconCry"
+        android:text="Reminder"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_blue_dark"
+        />
+    <TextView
+        android:id="@+id/tvOverview"
+        android:layout_toRightOf="@id/iconCry"
+        android:layout_below="@+id/tv2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Overview"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/holo_red_light"/>
+    <TextView
+        android:id="@+id/tvMoTa"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/tvOverview"
+        android:layout_toRightOf="@id/iconCry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="Minions Stuart, Kevin and Bob are recruited by Scarlet Overkill, a super-villain who, alongside her inventor husband Herb, hatches a..."/>
+    <TextView
+        android:id="@+id/tvCase"
+        android:layout_below="@id/btnReminder"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:layout_marginLeft="10dp"
+        android:text="Case And Crew"
+        android:textStyle="bold"/>
+    <ImageView
+        android:layout_marginLeft="5dp"
+        android:id="@+id/sandra"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tvCase"
+        android:layout_width="75dp"
+        android:layout_height="100dp"
+        android:background="@drawable/sandra"
+
+        />
+    <TextView
+        android:id="@+id/tvAndra"
+        android:layout_below="@+id/sandra"
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sandra"
+        android:layout_alignRight="@+id/sandra"
+        android:gravity="center"
+        android:text="Sandra Bullock"/>
+    <ImageView
+        android:id="@+id/jon"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tvCase"
+        android:layout_toRightOf="@+id/sandra"
+        android:layout_width="75dp"
+        android:layout_height="100dp"
+        android:background="@drawable/jon"
+        />
+    <TextView
+        android:id="@+id/tvjon"
+        android:layout_below="@+id/jon"
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/jon"
+        android:layout_alignRight="@+id/jon"
+        android:gravity="center"
+        android:text="Jon Hamm"/>
+    <ImageView
+        android:id="@+id/michael"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tvCase"
+        android:layout_toRightOf="@+id/jon"
+        android:layout_width="75dp"
+        android:layout_height="100dp"
+        android:background="@drawable/michael"
+        />
+    <TextView
+        android:id="@+id/tvMichael"
+        android:layout_below="@+id/michael"
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/michael"
+        android:layout_alignRight="@+id/michael"
+        android:gravity="center"
+        android:text="Michael Keaton"
+        />
+
+    <ImageView
+        android:id="@+id/allison"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tvCase"
+        android:layout_toRightOf="@+id/michael"
+        android:layout_width="75dp"
+        android:layout_height="100dp"
+        android:background="@drawable/allison"
+        />
+    <TextView
+        android:id="@+id/tvAllison"
+        android:layout_below="@+id/allison"
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/allison"
+        android:layout_alignRight="@+id/allison"
+        android:gravity="center"
+        android:text="Allison Janney"/>
+
+    <ImageView
+        android:id="@+id/steve"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tvCase"
+        android:layout_toRightOf="@+id/allison"
+        android:layout_width="75dp"
+        android:layout_height="100dp"
+        android:background="@drawable/steve"
+        />
+    <TextView
+        android:id="@+id/tvSteve"
+        android:layout_below="@+id/steve"
+        android:textColor="@android:color/black"
+        android:textSize="10sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/steve"
+        android:layout_alignRight="@+id/steve"
+        android:gravity="center"
+        android:text="Steve Coongan"/>
+
+
+
+
+
+</RelativeLayout>
